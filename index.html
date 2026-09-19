@@ -1,0 +1,227 @@
+<title>ضابط التوزيع</title>
+<meta name="description" content="سياسة الخصوصية لتطبيق ضابط التوزيع">
+<style>
+  :root {
+    --navy: #0B2545;
+    --navy-deep: #071A33;
+    --accent: #00A6FB;
+    --bg: #F7FAFE;
+    --surface: #FFFFFF;
+    --border: #E2E8F0;
+    --text: #1A1A1A;
+    --muted: #5B6472;
+    --success: #10B981;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0B1420;
+      --surface: #121C2B;
+      --border: #22314A;
+      --text: #ECEFF3;
+      --muted: #93A0B4;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0B1420;
+    --surface: #121C2B;
+    --border: #22314A;
+    --text: #ECEFF3;
+    --muted: #93A0B4;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'IBM Plex Sans Arabic', 'Cairo', 'Tahoma', sans-serif;
+    direction: rtl;
+    line-height: 1.75;
+    padding: 0 20px;
+  }
+  @font-face {
+    font-family: 'IBM Plex Sans Arabic';
+    src: local('IBM Plex Sans Arabic');
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-block: 32px 64px;
+  }
+  header.hero {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 22px 24px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, var(--navy), var(--navy-deep));
+    margin-bottom: 28px;
+  }
+  .badge {
+    flex: none;
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    background: #2554C7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .badge svg { width: 30px; height: 30px; display: block; }
+  header.hero .titles { min-width: 0; }
+  header.hero h1 {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+  }
+  header.hero p {
+    margin: 4px 0 0;
+    font-size: 12.5px;
+    color: rgba(255,255,255,.72);
+  }
+
+  .updated {
+    font-size: 12.5px;
+    color: var(--muted);
+    margin: 0 0 28px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  h2 {
+    font-size: 15.5px;
+    font-weight: 700;
+    margin: 34px 0 10px;
+    padding-inline-start: 12px;
+    border-inline-start: 3px solid var(--accent);
+  }
+  h2:first-of-type { margin-top: 0; }
+
+  p, li { font-size: 14.5px; color: var(--text); }
+  p { margin: 0 0 10px; }
+  ul { margin: 0 0 10px; padding-inline-start: 22px; display: grid; gap: 8px; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin: 12px 0;
+  }
+  .card.good { border-inline-start: 3px solid var(--success); }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0 4px;
+    font-size: 13.5px;
+  }
+  table th, table td {
+    text-align: start;
+    padding: 9px 10px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  table th {
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 12.5px;
+  }
+  .tablewrap { overflow-x: auto; }
+
+  .contact {
+    margin-top: 34px;
+    padding: 18px;
+    border-radius: 14px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+  }
+  .contact .placeholder {
+    color: var(--muted);
+    font-style: normal;
+    border-bottom: 1px dashed var(--muted);
+  }
+
+  footer {
+    margin-top: 34px;
+    font-size: 12px;
+    color: var(--muted);
+    text-align: center;
+  }
+</style>
+
+<div class="wrap">
+  <header class="hero">
+    <div class="badge">
+      <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+        <path d="M64 20 C64 20 34 56 34 76 C34 92.569 47.431 106 64 106 C80.569 106 94 92.569 94 76 C94 56 64 20 64 20 Z" fill="#ffffff" stroke="#8FC1FF" stroke-width="4"/>
+        <path d="M70 40 L48 76 L61 76 L58 90 L82 54 L67 54 Z" fill="#F5A623"/>
+      </svg>
+    </div>
+    <div class="titles">
+      <h1>ضابط التوزيع</h1>
+      <p>سياسة الخصوصية</p>
+    </div>
+  </header>
+
+  <p class="updated">آخر تحديث: 19 سبتمبر 2026</p>
+
+  <h2>ملخص سريع</h2>
+  <div class="card good">
+    <p style="margin:0">بيانات مشتركيك وعملياتك المالية تُخزَّن على جهازك فقط، ولا تُرسَل إلى أي خادم. لا إعلانات، ولا تتبّع، ولا بيع بيانات لأي طرف ثالث.</p>
+  </div>
+
+  <h2>البيانات التي يخزّنها التطبيق</h2>
+  <p>كل البيانات التي تُدخلها في التطبيق — أسماء المشتركين، أرقام الهواتف، العناوين، قراءات العدادات، الدفعات، الأرصدة، المصاريف، بيانات الشركاء والموظفين — تُخزَّن في قاعدة بيانات محلية على جهازك فقط (SQLite). لا يملك المطوّر ولا أي جهة أخرى وصولاً إلى هذه البيانات، ولا تُرسَل إلى أي خادم خارجي في أي وقت.</p>
+
+  <h2>الصلاحيات التي يطلبها التطبيق ولماذا</h2>
+  <div class="tablewrap">
+    <table>
+      <thead>
+        <tr><th>الصلاحية</th><th>الغرض منها</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>جهات الاتصال (قراءة فقط)</td>
+          <td>عند اختيارك جهة اتصال يدوياً لتعبئة رقم هاتف/عنوان مشترك جديد تلقائياً. تُنسخ البيانات إلى سجل المشترك محلياً فقط — لا تُقرأ جهات الاتصال أو تُرسَل في أي سياق آخر.</td>
+        </tr>
+        <tr>
+          <td>الإنترنت</td>
+          <td>للتحقق من صلاحية رمز التفعيل عند وجود ترخيص مُفعَّل فقط (انظر القسم التالي). لا يُستخدم الإنترنت لأي غرض آخر — لا مزامنة بيانات، ولا إعلانات، ولا تحليلات استخدام.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>التحقق من الترخيص</h2>
+  <p>عند تفعيل ترخيص مدفوع، يرسل التطبيق فقط رمز التفعيل ومُعرِّفاً عشوائياً للجهاز (لا يحتوي أي معلومة شخصية) إلى خادم التحقق الخاص بنا، للتأكد من صلاحية الترخيص وعدد الأجهزة المفعَّلة عليه. لا تُرسَل أي بيانات عن مشتركيك أو عملياتك أو معلوماتك التجارية في هذا الطلب مطلقاً.</p>
+
+  <h2>الرسائل النصية وواتساب</h2>
+  <p>عند استخدام ميزات التذكير بالرسائل، يفتح التطبيق تطبيق الرسائل أو واتساب على جهازك برسالة مُعبَّأة مسبقاً من بيانات موجودة أصلاً في قاعدتك المحلية — تُراجعها وترسلها أنت بنفسك. التطبيق لا يرسل أي رسالة تلقائياً بدون تدخّلك.</p>
+
+  <h2>النسخ الاحتياطي</h2>
+  <p>إنشاء نسخة احتياطية واستعادتها إجراء تقوم به أنت يدوياً، وتُحفَظ النسخة في مكان تختاره بنفسك (مساحة تخزين جهازك، أو مشاركتها عبر أي تطبيق تختاره). لا يرفع التطبيق أي نسخة احتياطية إلى أي خادم تلقائياً.</p>
+
+  <h2>ما لا يفعله التطبيق</h2>
+  <ul>
+    <li>لا يعرض إعلانات من أي نوع.</li>
+    <li>لا يتضمّن أي أداة تتبّع أو تحليلات استخدام (Analytics/Tracking SDKs).</li>
+    <li>لا يبيع بياناتك أو يشاركها مع أي طرف ثالث لأغراض تسويقية.</li>
+    <li>لا يجمع بيانات الموقع الجغرافي.</li>
+  </ul>
+
+  <h2>حذف بياناتك</h2>
+  <p>بما أن كل البيانات محلية على جهازك، فإن حذف التطبيق (Uninstall) يحذف جميع بياناته نهائياً. يوفّر التطبيق أيضاً خياراً لمسح بيانات محدَّدة من داخل الإعدادات دون الحاجة لحذف التطبيق بالكامل.</p>
+
+  <h2>الأطفال</h2>
+  <p>هذا التطبيق أداة إدارية موجَّهة لأصحاب مشاريع توزيع المياه/الكهرباء وموظفيهم، وليس موجَّهاً للأطفال.</p>
+
+  <h2>التغييرات على هذه السياسة</h2>
+  <p>قد نحدّث هذه السياسة من وقت لآخر لتعكس أي تغيير في وظائف التطبيق. سيظهر تاريخ آخر تحديث دائماً أعلى هذه الصفحة.</p>
+
+  <div class="contact">
+    <h2 style="margin-top:0">التواصل</h2>
+    <p style="margin:0">لأي استفسار متعلق بالخصوصية، يمكن التواصل عبر البريد الإلكتروني: <strong>azztlfaz@gmail.com</strong></p>
+  </div>
+
+  <footer>ضابط التوزيع — نظام إدارة مشاريع توزيع المياه والكهرباء</footer>
+</div>
